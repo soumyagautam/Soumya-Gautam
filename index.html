@@ -4,17 +4,44 @@
     <meta charset="utf-8">
     <title>Soumya Gautam - A Programmer and Web Developer</title>
     <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </head>
 
   <body>
+    <div class="navigation-pane">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#Skills" style="color: #66BFBF;">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Awards" style="color: #66BFBF;">Achievements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Work" style="color: #66BFBF;">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact" style="color: #66BFBF;">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     <div class="top-container">
       <img class="top-cloud" src="images/cloud.png" alt="Cloud-Image">
-      <h1><em>I'm Soumya</em></h1>
-      <h2 class="programmer">a programmer</h2>
+      <h1><em><b>I'm Soumya</b></em></h1>
+      <h2 class="programmer" style="margin-top: 20px;">a programmer</h2>
       <img class="bottom-cloud" src="images/cloud.png" alt="Cloud-Image">
       <img src="images/mountain.png" alt="Mountain-Image" height="500px">
     </div>
@@ -22,11 +49,11 @@
     <div class="middle-container">
       <div class="profile">
         <img src="images/profile.png" alt="Profile-Image" height=200px width=200px>
-        <h2>Hello</h2>
+        <h2 style="margin: 25px 0;">Hello</h2>
         <p class="intro">I am a Python Programmer and a Web Developer</p>
       </div>
       <hr>
-      <div class="skills">
+      <div class="skills" id="Skills">
         <h2>My Skills</h2>
         <div class="skill-row">
           <img class="computer-image" src="images/computer.png" alt="code-img">
@@ -39,15 +66,15 @@
           <p>But my best skill is actually in eating chillies. I love chillies.</p>
       </div>
       <hr>
-      <div class="recognition">
+      <div class="recognition" id="Awards">
         <h2>My Awards and Recognitions</h2>
-        <img src="images/awards.png" alt="Awards-Image" height=200px width=200px>
+        <img src="images/awards.png" alt="Awards-Image" height=200px width=200px, style="margin: 30px 0;">
         <p class="awards">I am a National-Level Cyber, Mathematics and STEM Olympliad Winner, a certified professional Python<br> and Web Developer and a graphic designer</p>
       </div>
       <hr>
-      <div class="contact-me">
+      <div class="contact-me" id="Contact">
         <h2>Get In Touch</h2>
-        <h3>I Can Help You</h3>
+        <h3 style="margin-top: 20px;">I Can Help You</h3>
         <p class="contact-message">Love chillies as much as I do? Let's connect now and discuss how tasty they are !!!</p>
         <a class="btn" href="mailto:connect.soumyagautam@gmail.com">Contact Me</a>
       </div>
