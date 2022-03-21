@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #40514E;
   margin: 0;
@@ -43,6 +47,7 @@ h2 {
 h3 {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
 }
 
 p {
@@ -131,6 +136,14 @@ a:hover {
   width: 30%;
   float: right;
   margin-right: 30px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.navigation-pane {
+  background-color: #E4F9F5;
 }
 
 .btn {
