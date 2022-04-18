@@ -78,6 +78,10 @@ a:hover {
   padding-top: 100px;
 }
 
+.profile-img:hover {
+  opacity: 0.7;
+}
+
 .middle-container {
   margin: 100px 0;
 }
