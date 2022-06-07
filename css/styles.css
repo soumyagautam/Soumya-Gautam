@@ -78,10 +78,6 @@ a:hover {
   padding-top: 100px;
 }
 
-.profile-img:hover {
-  opacity: 0.7;
-}
-
 .middle-container {
   margin: 100px 0;
 }
@@ -96,6 +92,7 @@ a:hover {
   width: 40%;
   margin: 100px auto 100px auto;
   text-align: left;
+  padding: 15px;
 }
 
 .pro {
@@ -110,6 +107,21 @@ a:hover {
 .contact-message {
   width: 40%;
   margin: 40px auto 60px;
+}
+
+.profile-img:hover {
+  opacity: 0.7;
+}
+
+.top-img {
+  height: 75px;
+  width: 75px;
+  margin-top: 7px;
+  margin-right: 500px;
+}
+
+.top-img:hover {
+  opacity: 0.7;
 }
 
 .copyright {
@@ -142,8 +154,15 @@ a:hover {
   margin-right: 30px;
 }
 
-.nav-link {
+.nav {
+  color: #66BFBF;
   font-size: 1.2rem;
+  margin: 30px;
+}
+
+.nav:hover {
+  color: #B1D0E0;
+  text-decoration: none;
 }
 
 .navigation-pane {
